@@ -212,9 +212,9 @@ async function loadGet(){
 //----------------------------------
 // Arduino Code for the Project
 
-// /*
-//  *
-//  * All the resources for this project: https://randomnerdtutorials.com/
+/*
+ *
+ * All the resources for this project: https://randomnerdtutorials.com/
 //  * Modified by Rui Santos
 //  *
 //  * Created by FILIPEFLOP
