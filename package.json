@@ -1,0 +1,25 @@
+{
+  "name": "final-dwd",
+  "version": "1.0.0",
+  "description": "http://expressjs.com/en/starter/static-files.html https://stackoverflow.com/questions/53308128/problem-serving-static-files-with-express https://stackoverflow.com/questions/37931357/css-file-is-not-working-in-node-js",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.10.0",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

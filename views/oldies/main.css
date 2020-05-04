@@ -1,0 +1,439 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+      * {
+        padding: 0 0 0 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 16px;
+      }
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: rgb(235, 235, 235);
+        text-align: center;
+
+      }
+
+      h1{
+        font-size:3rem;
+        padding: 3rem;
+        font-weight: 300;
+
+      }
+
+
+      h2{
+        font-size:2rem;
+        font-weight: 300; 
+        padding: 1rem;
+        
+      }
+
+      #h2__ShowVotes{
+        padding: 5rem;
+
+      }
+
+      p{
+        font-size:1.2rem;
+        padding-bottom: 4rem;
+        margin-bottom: 4rem;
+        font-weight: 400;  
+      }
+      @media screen and (max-width: 1000px) {
+        p {
+          font-size:1rem;
+        }
+      }
+
+      li {
+        font-size: 1rem;
+        font-weight: 400;
+        list-style-type: none;
+        color: aliceblue;
+        padding-top: 0rem;
+        
+        }
+        #catNum{
+          font-size:3.5rem;
+          padding-top: 2rem;
+          padding-bottom: 2.5rem;
+          font-weight: 600;         
+        }
+      #dogNum{
+        font-size:3.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+        font-weight: 600;         
+      }
+      #birdNum{
+        font-size:3.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+        font-weight: 600;         
+      }
+    #fishNum{
+      font-size:3.5rem;
+      padding-top: 2rem;
+      padding-bottom: 2.5rem;
+      font-weight: 600;         
+    }
+
+
+      hr{
+        margin-top: 4rem;
+      }
+
+      #animals {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0rem 0rem 0rem 0rem;
+        height: 80vh;
+        width: auto;
+      }
+
+      @media screen and (max-width: 1000px) {
+        #animals {
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+        }
+      }
+
+      #First__line__animal{
+        display: flex;
+        flex-direction: row;
+        position: relative; 
+        width: 50%;
+        justify-content: center;
+      }
+
+      @media screen and (max-width: 1000px) {
+        #First__line__animal  {
+        width: 100%;
+        padding: 0px;
+        height: auto;
+      }
+    }
+
+      #Second__line__animal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        width: 50%;
+        margin: 0rem;
+
+      }
+      @media screen and (max-width: 1000px) {
+        #Second__line__animal  {
+        padding: 0px;
+        height: auto;
+        width: 100%;
+      }
+    }
+
+      .animals {
+        font-size:2rem;
+        width: 80%;
+        height: auto;
+        position: relative;
+        margin: 5%;
+    }
+
+    .animals:hover {
+      width: 85%;
+    }
+    @media screen and (max-width: 700px) {
+        .animals  {
+        padding: 0px;
+        height: auto;
+        margin-bottom: 5rem;
+      }
+      .animals:hover {
+        height:auto; 
+      }
+    }
+
+    #cat{
+      font-size:2rem;
+      width: 80%;
+      height: auto;
+      position: relative;
+      margin: 5%;
+      border-radius: 100px;
+      box-shadow: 5px 5px 3px rgb(201, 201, 201);
+  }
+
+  #cat:hover {
+    width: 85%;
+    box-shadow: 5px 5px 10px rgb(94, 94, 94);
+  }
+  @media screen and (max-width: 700px) {
+      #cat  {
+      padding: 0px;
+      height: auto;
+      margin-bottom: 5rem;
+    }
+    #cat:hover {
+      height:auto; 
+      box-shadow: 5px 5px 10px rgb(94, 94, 94);
+      
+    }
+  }
+
+  #dog{
+      font-size:2rem;
+      width: 80%;
+      height: auto;
+      position: relative;
+      margin: 5%;
+      border-radius: 100px;
+      box-shadow: 5px 5px 3px rgb(201, 201, 201);
+  }
+
+  #dog:hover {
+    width: 85%;
+    box-shadow: 5px 5px 10px rgb(94, 94, 94);
+  }
+  @media screen and (max-width: 700px) {
+      #dog  {
+      padding: 0px;
+      height: auto;
+      margin-bottom: 5rem;
+    }
+    #dog:hover {
+      height:auto; 
+      box-shadow: 5px 5px 10px rgb(94, 94, 94);
+    }
+  }
+
+  #bird{
+    font-size:2rem;
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: 5%;
+    border-radius: 100px;
+    box-shadow: 5px 5px 3px rgb(201, 201, 201);
+}
+
+#bird:hover {
+  width: 85%;
+  box-shadow: 5px 5px 10px rgb(94, 94, 94);
+}
+@media screen and (max-width: 700px) {
+    #bird  {
+    padding: 0px;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  #bird:hover {
+    height:auto; 
+    box-shadow: 5px 5px 10px rgb(94, 94, 94);
+  }
+}
+
+#fish{
+    font-size:2rem;
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: 5%;
+    border-radius: 100px;
+    box-shadow: 5px 5px 3px rgb(201, 201, 201);
+}
+
+#fish:hover {
+  width: 85%;
+  box-shadow: 5px 5px 10px rgb(94, 94, 94);
+}
+@media screen and (max-width: 700px) {
+    #fish  {
+    padding: 0px;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  #fish:hover {
+    height:auto;
+    box-shadow: 5px 5px 10px rgb(94, 94, 94); 
+  }
+}
+
+    .animal__name {
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 3rem;
+      padding-top: 0rem;
+    }
+
+     
+    #show__total {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0rem 0rem 0rem 0rem;
+      height: 60vh;
+      width: 100%;
+
+    }
+
+    @media screen and (max-width: 1200px) {
+      #show__total {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    #show__graph {
+
+      position: relative;
+      width: 40%; 
+      height: 53vh;
+    }
+
+    @media screen and (max-width: 1200px) {
+      #show__graph{
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+      }
+    }
+
+    #show__info {
+      position: relative;
+      width: 60%;
+    }
+    @media screen and (max-width: 1200px) {
+      #show__info{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    #title__total {
+      position: relative;
+      width: 100%;
+      margin: 0rem;
+      margin-top: 2rem;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0rem 0rem 0rem 0rem;
+        height: 50vh;
+        width: 100%;
+        /* background-color: rgb(81, 187, 39); */
+        margin-top: 3rem;
+      }
+
+      @media screen and (max-width: 1000px) {
+        #info {
+            flex-direction: column;
+            height: auto;
+        }
+      }
+
+      #First__line__info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        width: 50%;
+        margin: 0rem;
+        /* background-color: brown; */
+
+      }
+
+      @media screen and (max-width: 1000px) {
+        #First__line__info {
+            height: auto;
+            width: 100%;
+        }
+      }
+      #Second__line__info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        width: 50%;
+        margin: 0rem;
+
+      }
+      @media screen and (max-width: 1000px) {
+        #Second__line__info {
+            height: auto;
+            width: 100%;
+        }
+      }
+
+    ul {
+        list-style-type: none;
+        width: 35%;
+        margin-top: 0rem;
+        margin-bottom: 12rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(85, 14, 156);
+        /* background-color: rgb(54, 7, 100); */
+
+        border-radius: 25px;
+        box-shadow: 5px 5px 3px rgb(190, 190, 190);
+        height: 30vh;
+        }
+
+          .info__style__1 {
+            margin-top: 5rem;
+            margin-bottom: 4rem;
+            font-size:2rem;
+          }
+  
+          #linea1 {
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            height: 2px;
+            width: auto;
+            background-color: rgb(153, 153, 153);
+          }
+
+          #linea2 {
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            height: 2px;
+            width: auto;
+
+            background-color:rgb(153, 153, 153);
+        }
+
+          .references{
+            margin-top: 5rem;
+            font-size: 1rem;
+          }
+
+
+          #voted__p{
+            font-size: 4rem;
+            font-weight: 300;
+            margin: 0rem;
+          }
+          
+          #voted{
+            font-size: 5rem;
+            font-weight: 600;
+            margin: 0rem;
+            
+          }
+
+        
